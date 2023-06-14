@@ -5,6 +5,8 @@
 
 namespace Automattic\WooCommerce\Database\Migrations\CustomOrderTable;
 
+use Automattic\WooCommerce\Database\Migrations\MetaToCustomTableMigrator;
+
 /**
  * Helper class to migrate records from the WordPress post table
  * to the custom order operations table.
@@ -18,7 +20,7 @@ class PostToOrderOpTableMigrator extends MetaToCustomTableMigrator {
 	 *
 	 * @return array Config.
 	 */
-	public function get_schema_config(): array {
+	protected function get_schema_config(): array {
 		global $wpdb;
 		// TODO: Remove hardcoding.
 		$this->table_names = array(
@@ -38,6 +40,7 @@ class PostToOrderOpTableMigrator extends MetaToCustomTableMigrator {
 				),
 				'meta'   => array(
 					'table_name'        => $wpdb->postmeta,
+					'meta_id_column'    => 'meta_id',
 					'meta_key_column'   => 'meta_key',
 					'meta_value_column' => 'meta_value',
 					'entity_id_column'  => 'post_id',
@@ -58,7 +61,7 @@ class PostToOrderOpTableMigrator extends MetaToCustomTableMigrator {
 	 *
 	 * @return \string[][] Config.
 	 */
-	public function get_core_column_mapping(): array {
+	protected function get_core_column_mapping(): array {
 		return array(
 			'id' => array(
 				'type'        => 'int',
@@ -115,16 +118,8 @@ class PostToOrderOpTableMigrator extends MetaToCustomTableMigrator {
 				'type'        => 'date_epoch',
 				'destination' => 'date_paid_gmt',
 			),
-			'_paid_date'                    => array( // For compatibility with WC < 2.6.
-				'type'        => 'date',
-				'destination' => 'date_paid_gmt',
-			),
 			'_date_completed'               => array(
 				'type'        => 'date_epoch',
-				'destination' => 'date_completed_gmt',
-			),
-			'_completed_date'               => array( // For compatibility with WC < 2.6.
-				'type'        => 'date',
 				'destination' => 'date_completed_gmt',
 			),
 			'_order_shipping_tax'           => array(

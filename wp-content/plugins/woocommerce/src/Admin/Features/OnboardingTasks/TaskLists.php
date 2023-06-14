@@ -8,8 +8,8 @@ namespace Automattic\WooCommerce\Admin\Features\OnboardingTasks;
 use Automattic\WooCommerce\Admin\Features\Features;
 use Automattic\WooCommerce\Admin\Features\OnboardingTasks\DeprecatedExtendedTask;
 use Automattic\WooCommerce\Admin\Features\OnboardingTasks\Task;
-use Automattic\WooCommerce\Internal\Admin\Loader;
-
+use Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\ReviewShippingOptions;
+use Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\TourInAppMarketplace;
 /**
  * Task Lists class.
  */
@@ -51,6 +51,9 @@ class TaskLists {
 		'Marketing',
 		'Appearance',
 		'AdditionalPayments',
+		'ReviewShippingOptions',
+		'GetMobileApp',
+		'TourInAppMarketplace',
 	);
 
 	/**
@@ -107,32 +110,11 @@ class TaskLists {
 	public static function init_default_lists() {
 		self::add_list(
 			array(
-				'id'           => 'setup',
-				'title'        => __( 'Get ready to start selling', 'woocommerce' ),
-				'tasks'        => array(
-					'StoreDetails',
-					'Purchase',
-					'Products',
-					'WooCommercePayments',
-					'Payments',
-					'Tax',
-					'Shipping',
-					'Marketing',
-					'Appearance',
-				),
-				'event_prefix' => 'tasklist_',
-				'visible'      => ! self::is_experiment_treatment( 'woocommerce_tasklist_setup_experiment_1' )
-					&& ! self::is_experiment_treatment( 'woocommerce_tasklist_setup_experiment_2' ),
-			)
-		);
-
-		self::add_list(
-			array(
-				'id'                      => 'setup_experiment_1',
-				'hidden_id'               => 'setup',
+				'id'                      => 'setup',
 				'title'                   => __( 'Get ready to start selling', 'woocommerce' ),
 				'tasks'                   => array(
 					'StoreDetails',
+					'Purchase',
 					'Products',
 					'WooCommercePayments',
 					'Payments',
@@ -146,65 +128,7 @@ class TaskLists {
 				'options'                 => array(
 					'use_completed_title' => true,
 				),
-				'visible'                 => self::is_experiment_treatment( 'woocommerce_tasklist_setup_experiment_1' ),
-			)
-		);
-
-		self::add_list(
-			array(
-				'id'           => 'setup_experiment_2',
-				'hidden_id'    => 'setup',
-				'title'        => __( 'Get ready to start selling', 'woocommerce' ),
-				'tasks'        => array(
-					'StoreCreation',
-					'StoreDetails',
-					'Products',
-					'WooCommercePayments',
-					'Payments',
-					'Tax',
-					'Shipping',
-					'Marketing',
-					'Appearance',
-				),
-				'event_prefix' => 'tasklist_',
-				'visible'      => self::is_experiment_treatment( 'woocommerce_tasklist_setup_experiment_2' )
-					&& ! self::is_experiment_treatment( 'woocommerce_tasklist_setup_experiment_1' ),
-				'options'      => array(
-					'use_completed_title' => true,
-				),
-				'display_progress_header' => true,
-				'sections'     => array(
-					array(
-						'id'          => 'basics',
-						'title'       => __( 'Cover the basics', 'woocommerce' ),
-						'description' => __( 'Make sure you’ve got everything you need to start selling—from business details to products.', 'woocommerce' ),
-						'image'       => plugins_url(
-							'/assets/images/task_list/basics-section-illustration.png',
-							WC_ADMIN_PLUGIN_FILE
-						),
-						'task_names'  => array( 'StoreCreation', 'StoreDetails', 'Products', 'Payments', 'WooCommercePayments' ),
-					),
-					array(
-						'id'          => 'sales',
-						'title'       => __( 'Get ready to sell', 'woocommerce' ),
-						'description' => __( 'Easily set up the backbone of your store’s operations and get ready to accept first orders.', 'woocommerce' ),
-						'image'       => plugins_url(
-							'/assets/images/task_list/sales-section-illustration.png',
-							WC_ADMIN_PLUGIN_FILE
-						),
-						'task_names'  => array( 'Shipping', 'Tax' ),
-					),
-					array(
-						'id'          => 'expand',
-						'title'       => __( 'Customize & expand', 'woocommerce' ),
-						'description' => __( 'Personalize your store’s design and grow your business by enabling new sales channels.', 'woocommerce' ),
-						'image'       => plugins_url(
-							'/assets/images/task_list/expand-section-illustration.png',
-							WC_ADMIN_PLUGIN_FILE
-						),
-						'task_names'  => array( 'Appearance', 'Marketing' ),
-					),
-				),
+				'visible'                 => true,
 			)
 		);
 
@@ -224,48 +148,48 @@ class TaskLists {
 				),
 				'tasks'   => array(
 					'AdditionalPayments',
+					'GetMobileApp',
 				),
-			)
-		);
-		self::add_list(
-			array(
-				'id'           => 'setup_two_column',
-				'hidden_id'    => 'setup',
-				'title'        => __( 'Get ready to start selling', 'woocommerce' ),
-				'tasks'        => array(
-					'Products',
-					'WooCommercePayments',
-					'Payments',
-					'Tax',
-					'Shipping',
-					'Marketing',
-					'Appearance',
-				),
-				'event_prefix' => 'tasklist_',
-			)
-		);
-		self::add_list(
-			array(
-				'id'           => 'extended_two_column',
-				'hidden_id'    => 'extended',
-				'title'        => __( 'Things to do next', 'woocommerce' ),
-				'sort_by'      => array(
-					array(
-						'key'   => 'is_complete',
-						'order' => 'asc',
-					),
-					array(
-						'key'   => 'level',
-						'order' => 'asc',
-					),
-				),
-				'tasks'        => array(
-					'AdditionalPayments',
-				),
-				'event_prefix' => 'extended_tasklist_',
 			)
 		);
 
+		if ( Features::is_enabled( 'shipping-smart-defaults' ) ) {
+			self::add_task(
+				'extended',
+				new ReviewShippingOptions(
+					self::get_list( 'extended' )
+				)
+			);
+
+			// Tasklist that will never be shown in homescreen,
+			// used for having tasks that are accessed by other means.
+			self::add_list(
+				array(
+					'id'           => 'secret_tasklist',
+					'hidden_id'    => 'setup',
+					'tasks'        => array(
+						'ExperimentalShippingRecommendation',
+					),
+					'event_prefix' => 'secret_tasklist_',
+					'visible'      => false,
+				)
+			);
+		}
+
+		if ( ! wp_is_mobile() ) { // Permit In-App Marketplace Tour on desktops only.
+			$tour_task = new TourInAppMarketplace();
+			self::add_task( 'extended', $tour_task );
+		}
+
+		if ( has_filter( 'woocommerce_admin_experimental_onboarding_tasklists' ) ) {
+			/**
+			 * Filter to override default task lists.
+			 *
+			 * @since 7.4
+			 * @param array     $lists Array of tasklists.
+			 */
+			self::$lists = apply_filters( 'woocommerce_admin_experimental_onboarding_tasklists', self::$lists );
+		}
 	}
 
 	/**
@@ -282,7 +206,7 @@ class TaskLists {
 	}
 
 	/**
-	 * Temporarily store the active task to persist across page loads when neccessary.
+	 * Temporarily store the active task to persist across page loads when necessary.
 	 * Most tasks do not need this.
 	 */
 	public static function set_active_task() {
@@ -309,7 +233,7 @@ class TaskLists {
 	 * Add a task list.
 	 *
 	 * @param array $args Task list properties.
-	 * @return WP_Error|TaskList
+	 * @return \WP_Error|TaskList
 	 */
 	public static function add_list( $args ) {
 		if ( isset( self::$lists[ $args['id'] ] ) ) {
@@ -327,10 +251,11 @@ class TaskLists {
 	 * Add task to a given task list.
 	 *
 	 * @param string $list_id List ID to add the task to.
-	 * @param array  $args Task properties.
-	 * @return WP_Error|Task
+	 * @param Task   $task Task object.
+	 *
+	 * @return \WP_Error|Task
 	 */
-	public static function add_task( $list_id, $args ) {
+	public static function add_task( $list_id, $task ) {
 		if ( ! isset( self::$lists[ $list_id ] ) ) {
 			return new \WP_Error(
 				'woocommerce_task_list_invalid_list',
@@ -338,7 +263,7 @@ class TaskLists {
 			);
 		}
 
-		self::$lists[ $list_id ]->add_task( $args );
+		self::$lists[ $list_id ]->add_task( $task );
 	}
 
 	/**
@@ -467,13 +392,10 @@ class TaskLists {
 	 *
 	 * @return number
 	 */
-	public static function setup_tasks_remaining () {
+	public static function setup_tasks_remaining() {
+		$setup_list = self::get_list( 'setup' );
 
-		$active_list = self::is_experiment_treatment( 'woocommerce_tasklist_setup_experiment_1' ) ? 'setup_experiment_1' : ( self::is_experiment_treatment( 'woocommerce_tasklist_setup_experiment_2' ) ? 'setup_experiment_2' : 'setup' );
-
-		$setup_list = self::get_list( $active_list );
-
-		if( ! $setup_list || $setup_list->is_hidden() || $setup_list->is_complete() ) {
+		if ( ! $setup_list || $setup_list->is_hidden() || $setup_list->is_complete() ) {
 			return;
 		}
 

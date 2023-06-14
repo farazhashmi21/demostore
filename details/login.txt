@@ -2,6 +2,10 @@
 
 
 Site Name: Demo Store
+Tagline: Discover Your Style
 Admin: adminfarazhashmi
 Password: Ty57&%eWaP
 Email: developerfaraz@yahoo.com
+Site URL: http://demostore/
+Login URL: http://demostore/wp-login.php/
+Project Description: Build an online store for Personal Shopping.
