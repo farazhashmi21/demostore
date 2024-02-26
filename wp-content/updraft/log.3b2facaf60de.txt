@@ -1,0 +1,555 @@
+0000.000 (0) Opened log file at time: Mon, 26 Feb 2024 17:25:07 +0000 on http://localhost/sites/demostore
+0000.008 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.1 WP: 6.4.3 PHP: 8.2.12 (apache2handler, Linux farazhashmi-HP-ProBook-6475b 6.5.0-21-generic #21~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Feb  9 13:32:52 UTC 2 x86_64) MySQL: 10.4.32-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.58 (Unix) OpenSSL/1.1.1w PHP/8.2.12 mod_perl/2.0.12 Perl/v5.34.1 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 66.5M | 69M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG: en_GB.UTF-8 ZipArchive::addFile: Y
+0000.016 (0) Free space on disk containing Updraft's temporary directory: 29353.4 MB
+0000.025 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.035 (0) Semaphore (fd, store_options) being initialised
+0000.105 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.131 (0) Set semaphore last lock (fd) time to 2024-02-26 17:25:07
+0000.140 (0) Semaphore lock (fd) complete
+0000.172 (0) Backup run: resumption=0, nonce=3b2facaf60de, file_nonce=3b2facaf60de begun at=1708968307 (0s ago), job type=backup
+0000.189 (0) Scheduling a resumption (1) after 300 seconds (1708968607) in case this run gets aborted
+0000.265 (0) Checking if we have a zip executable available
+0000.273 (0) Testing: /usr/bin/zip
+0000.284 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.292 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.299 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.308 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.316 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.374 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.382 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.420 (0) Working binary zip found: /usr/bin/zip
+0000.438 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.447 (0) Creation of backups of directories: beginning
+0000.506 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.687 (0) Total entities for the zip file: 1895 directories, 10213 files (0 skipped as non-modified), 118.7 MB
+0001.728 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.738 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.752 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.768 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.780 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.791 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.803 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.815 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.825 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.869 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0001.877 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.9 MB, 10213 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0003.601 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: size is now: 2.70 MB
+0003.620 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 1100 files added (on-disk size: 2726 KB)
+0003.697 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 1200 files added (on-disk size: 2726 KB)
+0003.745 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 1300 files added (on-disk size: 2726 KB)
+0003.758 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 1400 files added (on-disk size: 2726 KB)
+0003.770 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 1500 files added (on-disk size: 2726 KB)
+0003.783 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 1600 files added (on-disk size: 2726 KB)
+0003.796 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 1700 files added (on-disk size: 2726 KB)
+0003.810 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 1800 files added (on-disk size: 2726 KB)
+0003.880 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 1900 files added (on-disk size: 2726 KB)
+0003.897 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 2000 files added (on-disk size: 2726 KB)
+0003.905 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (1.7 MB, 10213 files batched, 1001 (2002) added so far); re-opening (prior size: 2726 KB)
+0004.415 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: size is now: 3.70 MB
+0004.484 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 2100 files added (on-disk size: 3808.8 KB)
+0004.496 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 2200 files added (on-disk size: 3808.8 KB)
+0004.508 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 2300 files added (on-disk size: 3808.8 KB)
+0004.520 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 2400 files added (on-disk size: 3808.8 KB)
+0004.533 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 2500 files added (on-disk size: 3808.8 KB)
+0004.545 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 2600 files added (on-disk size: 3808.8 KB)
+0004.558 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 2700 files added (on-disk size: 3808.8 KB)
+0004.592 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 2800 files added (on-disk size: 3808.8 KB)
+0004.604 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 2900 files added (on-disk size: 3808.8 KB)
+0004.617 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 3000 files added (on-disk size: 3808.8 KB)
+0004.625 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.6 MB, 10213 files batched, 1001 (3003) added so far); re-opening (prior size: 3808.8 KB)
+0005.764 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: size is now: 11.10 MB
+0005.804 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 3100 files added (on-disk size: 11400.4 KB)
+0005.815 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 3200 files added (on-disk size: 11400.4 KB)
+0005.826 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 3300 files added (on-disk size: 11400.4 KB)
+0005.837 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 3400 files added (on-disk size: 11400.4 KB)
+0005.848 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 3500 files added (on-disk size: 11400.4 KB)
+0005.858 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 3600 files added (on-disk size: 11400.4 KB)
+0005.880 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 3700 files added (on-disk size: 11400.4 KB)
+0005.911 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 3800 files added (on-disk size: 11400.4 KB)
+0005.922 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 3900 files added (on-disk size: 11400.4 KB)
+0005.935 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 4000 files added (on-disk size: 11400.4 KB)
+0005.943 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (11.2 MB, 10213 files batched, 1001 (4004) added so far); re-opening (prior size: 11400.4 KB)
+0007.506 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: size is now: 14.40 MB
+0007.524 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 4100 files added (on-disk size: 14788.1 KB)
+0007.534 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 4200 files added (on-disk size: 14788.1 KB)
+0007.544 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 4300 files added (on-disk size: 14788.1 KB)
+0007.554 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 4400 files added (on-disk size: 14788.1 KB)
+0007.564 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 4500 files added (on-disk size: 14788.1 KB)
+0007.575 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 4600 files added (on-disk size: 14788.1 KB)
+0007.618 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 4700 files added (on-disk size: 14788.1 KB)
+0007.631 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 4800 files added (on-disk size: 14788.1 KB)
+0007.643 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 4900 files added (on-disk size: 14788.1 KB)
+0007.660 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 5000 files added (on-disk size: 14788.1 KB)
+0007.668 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.4 MB, 10213 files batched, 1001 (5005) added so far); re-opening (prior size: 14788.1 KB)
+0009.020 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: size is now: 18.70 MB
+0009.038 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 5100 files added (on-disk size: 19145.5 KB)
+0009.048 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 5200 files added (on-disk size: 19145.5 KB)
+0009.058 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 5300 files added (on-disk size: 19145.5 KB)
+0009.069 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 5400 files added (on-disk size: 19145.5 KB)
+0009.080 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 5500 files added (on-disk size: 19145.5 KB)
+0009.090 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 5600 files added (on-disk size: 19145.5 KB)
+0009.101 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 5700 files added (on-disk size: 19145.5 KB)
+0009.112 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 5800 files added (on-disk size: 19145.5 KB)
+0009.123 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 5900 files added (on-disk size: 19145.5 KB)
+0009.132 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 6000 files added (on-disk size: 19145.5 KB)
+0009.140 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.3 MB, 10213 files batched, 1001 (6006) added so far); re-opening (prior size: 19145.5 KB)
+0010.183 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: size is now: 29.20 MB
+0010.201 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 6100 files added (on-disk size: 29929.1 KB)
+0010.211 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 6200 files added (on-disk size: 29929.1 KB)
+0010.222 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 6300 files added (on-disk size: 29929.1 KB)
+0010.232 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 6400 files added (on-disk size: 29929.1 KB)
+0010.251 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 6500 files added (on-disk size: 29929.1 KB)
+0010.262 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 6600 files added (on-disk size: 29929.1 KB)
+0010.272 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 6700 files added (on-disk size: 29929.1 KB)
+0010.282 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 6800 files added (on-disk size: 29929.1 KB)
+0010.292 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 6900 files added (on-disk size: 29929.1 KB)
+0010.302 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 7000 files added (on-disk size: 29929.1 KB)
+0010.311 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.2 MB, 10213 files batched, 1001 (7007) added so far); re-opening (prior size: 29929.1 KB)
+0011.914 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 7100 files added (on-disk size: 33061.8 KB)
+0011.924 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 7200 files added (on-disk size: 33061.8 KB)
+0011.934 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 7300 files added (on-disk size: 33061.8 KB)
+0011.944 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 7400 files added (on-disk size: 33061.8 KB)
+0011.980 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 7500 files added (on-disk size: 33061.8 KB)
+0011.993 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 7600 files added (on-disk size: 33061.8 KB)
+0012.005 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 7700 files added (on-disk size: 33061.8 KB)
+0012.017 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 7800 files added (on-disk size: 33061.8 KB)
+0012.029 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 7900 files added (on-disk size: 33061.8 KB)
+0012.042 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 8000 files added (on-disk size: 33061.8 KB)
+0012.050 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (19.9 MB, 10213 files batched, 1001 (8008) added so far); re-opening (prior size: 33061.8 KB)
+0014.223 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 8100 files added (on-disk size: 38666.3 KB)
+0014.234 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 8200 files added (on-disk size: 38666.3 KB)
+0014.244 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 8300 files added (on-disk size: 38666.3 KB)
+0014.255 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 8400 files added (on-disk size: 38666.3 KB)
+0014.266 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 8500 files added (on-disk size: 38666.3 KB)
+0014.277 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 8600 files added (on-disk size: 38666.3 KB)
+0014.289 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 8700 files added (on-disk size: 38666.3 KB)
+0014.300 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 8800 files added (on-disk size: 38666.3 KB)
+0014.310 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 8900 files added (on-disk size: 38666.3 KB)
+0014.321 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 9000 files added (on-disk size: 38666.3 KB)
+0014.329 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.5 MB, 10213 files batched, 1001 (9009) added so far); re-opening (prior size: 38666.3 KB)
+0015.809 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 9100 files added (on-disk size: 41834.2 KB)
+0015.819 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 9200 files added (on-disk size: 41834.2 KB)
+0015.829 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 9300 files added (on-disk size: 41834.2 KB)
+0015.841 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 9400 files added (on-disk size: 41834.2 KB)
+0015.853 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 9500 files added (on-disk size: 41834.2 KB)
+0015.865 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 9600 files added (on-disk size: 41834.2 KB)
+0015.878 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 9700 files added (on-disk size: 41834.2 KB)
+0015.890 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 9800 files added (on-disk size: 41834.2 KB)
+0015.903 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 9900 files added (on-disk size: 41834.2 KB)
+0015.915 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 10000 files added (on-disk size: 41834.2 KB)
+0015.924 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (18.3 MB, 10213 files batched, 1001 (10010) added so far); re-opening (prior size: 41834.2 KB)
+0018.650 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 10100 files added (on-disk size: 48969.1 KB)
+0018.660 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.tmp: 10200 files added (on-disk size: 48969.1 KB)
+0019.532 (0) Creating zip file manifest (backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.list-temp.tmp)
+0019.600 (0) Successfully created zip file manifest (size: 947441)
+0020.521 (0) Created plugins zip (0) - 49856.8 KB in 20 s (2494.1 KB/s) (sha1: a18a74a28b560875002e7a511e158dd173afd651, sha256: dfcc94b954009adbd33a2727bda41ba9dc0312d745f5f4085efea25042665f85)
+0020.561 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0020.569 (0) No remote despatch: user chose no remote backup service
+0020.577 (0) Recording as successfully uploaded: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip
+0020.592 (0) Deleting zip manifest (backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip.list.tmp)
+0020.609 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0020.618 (0) Number of backup sets in history: 0; groups (db): 1
+0020.625 (0) Number of backup sets in history: 0; groups (files): 1
+0020.633 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0020.679 (0) Beginning creation of dump of themes (split every: 400 MB)
+0020.786 (0) Total entities for the zip file: 351 directories, 2033 files (0 skipped as non-modified), 11.6 MB
+0020.796 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0020.806 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0020.816 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0020.826 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0020.836 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0020.846 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0020.857 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0020.869 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0020.882 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0020.894 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0020.903 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.8 MB, 2033 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0021.960 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-themes.zip.tmp: size is now: 3.80 MB
+0021.978 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-themes.zip.tmp: 1100 files added (on-disk size: 3926.4 KB)
+0021.989 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-themes.zip.tmp: 1200 files added (on-disk size: 3926.4 KB)
+0022.000 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-themes.zip.tmp: 1300 files added (on-disk size: 3926.4 KB)
+0022.017 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-themes.zip.tmp: 1400 files added (on-disk size: 3926.4 KB)
+0022.027 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-themes.zip.tmp: 1500 files added (on-disk size: 3926.4 KB)
+0022.038 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-themes.zip.tmp: 1600 files added (on-disk size: 3926.4 KB)
+0022.051 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-themes.zip.tmp: 1700 files added (on-disk size: 3926.4 KB)
+0022.062 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-themes.zip.tmp: 1800 files added (on-disk size: 3926.4 KB)
+0022.080 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-themes.zip.tmp: 1900 files added (on-disk size: 3926.4 KB)
+0022.091 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-themes.zip.tmp: 2000 files added (on-disk size: 3926.4 KB)
+0022.099 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (3.6 MB, 2033 files batched, 1001 (2002) added so far); re-opening (prior size: 3926.4 KB)
+0022.937 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-themes.zip.tmp: size is now: 5.10 MB
+0023.080 (0) Creating zip file manifest (backup_2024-02-26-1725_Demo_Store_3b2facaf60de-themes.zip.list-temp.tmp)
+0023.100 (0) Successfully created zip file manifest (size: 254000)
+0023.224 (0) Created themes zip (0) - 5315.1 KB in 2.5 s (2102 KB/s) (sha1: 15f9f9f9a33dff03c25af95631430f5490fe962a, sha256: ed4113713bbfc9a43206bbf81666059da3bc64aadc09bc412ffb897bbe583671)
+0023.252 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0023.260 (0) No remote despatch: user chose no remote backup service
+0023.268 (0) Recording as successfully uploaded: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-themes.zip
+0023.290 (0) Deleting zip manifest (backup_2024-02-26-1725_Demo_Store_3b2facaf60de-themes.zip.list.tmp)
+0023.310 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0023.319 (0) Number of backup sets in history: 0; groups (db): 1
+0023.327 (0) Number of backup sets in history: 0; groups (files): 1
+0023.335 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0023.369 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0023.378 (0) Looking for candidates to backup in: /opt/lampp/htdocs/sites/demostore/wp-content/uploads
+0023.386 (0) finding files: woocommerce-placeholder-416x416.png: adding to list (1)
+0023.394 (0) finding files: woocommerce-placeholder-100x100.png: adding to list (2)
+0023.402 (0) finding files: wc-logs: adding to list (3)
+0023.410 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (4)
+0023.418 (0) finding files: woocommerce-placeholder.png: adding to list (5)
+0023.426 (0) finding files: woocommerce-placeholder-1024x1024.png: adding to list (6)
+0023.434 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (7)
+0023.442 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (8)
+0023.450 (0) finding files: woocommerce_uploads: adding to list (9)
+0023.458 (0) finding files: 2023: adding to list (10)
+0023.466 (0) finding files: woocommerce-placeholder-324x324.png: adding to list (11)
+0023.475 (0) finding files: 2024: adding to list (12)
+0023.483 (0) finding files: wpcf7_uploads: adding to list (13)
+0023.491 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0023.537 (0) Total entities for the zip file: 7 directories, 703 files (0 skipped as non-modified), 16.8 MB
+0023.550 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0023.562 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0023.575 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0023.587 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0023.599 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0023.612 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-uploads.zip.tmp: 600 files added (on-disk size: 0 KB)
+0023.624 (0) Zip: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-uploads.zip.tmp: 700 files added (on-disk size: 0 KB)
+0024.389 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-uploads.zip.tmp: size is now: 16.90 MB
+0024.416 (0) Creating zip file manifest (backup_2024-02-26-1725_Demo_Store_3b2facaf60de-uploads.zip.list-temp.tmp)
+0024.428 (0) Successfully created zip file manifest (size: 39509)
+0024.765 (0) Created uploads zip (0) - 17274.2 KB in 1.3 s (13740.3 KB/s) (sha1: 42e5c346717b07dea7e954d62a8a165e4a5706e1, sha256: 84a6912c54a95cffd9c3dd8549035564478fda22afdd9e8ac3d51dd065a2c9e6)
+0024.788 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0024.795 (0) No remote despatch: user chose no remote backup service
+0024.803 (0) Recording as successfully uploaded: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-uploads.zip
+0024.819 (0) Deleting zip manifest (backup_2024-02-26-1725_Demo_Store_3b2facaf60de-uploads.zip.list.tmp)
+0024.835 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0024.844 (0) Number of backup sets in history: 0; groups (db): 1
+0024.853 (0) Number of backup sets in history: 0; groups (files): 1
+0024.861 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0024.888 (0) No backup of mu-plugins: excluded by user's options
+0024.912 (0) Beginning backup of other directories found in the content directory (index: 0)
+0024.921 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0024.929 (0) Looking for candidates to backup in: /opt/lampp/htdocs/sites/demostore/wp-content
+0024.937 (0) finding files: uploads: skipping: this is the uploads directory
+0024.946 (0) finding files: updraft: skipping: this is the updraft directory
+0024.954 (0) finding files: themes: skipping: this is the themes directory
+0024.962 (0) finding files: index.php: adding to list (1)
+0024.970 (0) finding files: plugins: skipping: this is the plugins directory
+0024.991 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0025.022 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-others.zip.tmp: size is now: 0.00 MB
+0025.040 (0) Creating zip file manifest (backup_2024-02-26-1725_Demo_Store_3b2facaf60de-others.zip.list-temp.tmp)
+0025.048 (0) Successfully created zip file manifest (size: 43)
+0025.085 (0) Created others zip (0) - 0.2 KB in 0.1 s (2.1 KB/s) (sha1: e4326694a989d1e6df5b17eb50fc8408a20d440c, sha256: 6f6d10d14edbb9b3d689035ef7b2cc9f3de0b82564024f3379f6e6cdc7c31b30)
+0025.111 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0025.120 (0) No remote despatch: user chose no remote backup service
+0025.148 (0) Recording as successfully uploaded: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-others.zip
+0025.181 (0) Deleting zip manifest (backup_2024-02-26-1725_Demo_Store_3b2facaf60de-others.zip.list.tmp)
+0025.208 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0025.216 (0) Number of backup sets in history: 0; groups (db): 1
+0025.223 (0) Number of backup sets in history: 0; groups (files): 1
+0025.231 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0025.278 (0) Saving backup status to database (elements: 8)
+0025.303 (0) Beginning creation of database dump (WordPress DB)
+0025.312 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0025.329 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0025.347 (0) Binary mysqldump: error (code: 1)
+0025.355 (0) Testing potential mysqldump binary: /bin/mysqldump
+0025.366 (0) Binary mysqldump: error (code: 1)
+0025.425 (0) Table store_options: Total expected rows (via COUNT): 519
+0025.614 (0) Table store_options: Rows added in this batch (next record: 1023): 515 (uncompressed bytes in this segment=1969669) in 0.22 seconds
+0025.650 (0) Table store_options: finishing file(s) (2, 339.5 KB)
+0025.669 (0) Table store_users: Total expected rows (via COUNT): 1
+0025.676 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.692 (0) Table store_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1233) in 0.03 seconds
+0025.714 (0) Table store_users: finishing file(s) (2, 0.6 KB)
+0025.749 (0) Table store_usermeta: Total expected rows (via COUNT): 34
+0025.759 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.776 (0) Table store_usermeta: Rows added in this batch (next record: 43): 34 (uncompressed bytes in this segment=13096) in 0.05 seconds
+0025.806 (0) Table store_usermeta: finishing file(s) (2, 2.9 KB)
+0025.842 (0) Table store_actionscheduler_actions: Total expected rows (via COUNT): 222
+0025.849 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.883 (0) Table store_actionscheduler_actions: Rows added in this batch (next record: 227): 222 (uncompressed bytes in this segment=81138) in 0.06 seconds
+0025.913 (0) Table store_actionscheduler_actions: finishing file(s) (2, 5.2 KB)
+0025.931 (0) Table store_actionscheduler_claims: Total expected rows (via COUNT): 0
+0025.947 (0) Table store_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=643) in 0.02 seconds
+0025.970 (0) Table store_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0025.992 (0) Table store_actionscheduler_groups: Total expected rows (via COUNT): 4
+0026.000 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0026.016 (0) Table store_actionscheduler_groups: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=762) in 0.03 seconds
+0026.039 (0) Table store_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0026.061 (0) Table store_actionscheduler_logs: Total expected rows (via COUNT): 664
+0026.104 (0) Table store_actionscheduler_logs: Rows added in this batch (next record: 664): 664 (uncompressed bytes in this segment=59030) in 0.05 seconds
+0026.195 (0) Table store_actionscheduler_logs: finishing file(s) (2, 5.7 KB)
+0026.238 (0) Table store_commentmeta: Total expected rows (via COUNT): 0
+0026.257 (0) Table store_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=652) in 0.04 seconds
+0026.297 (0) Table store_commentmeta: finishing file(s) (2, 0.4 KB)
+0026.326 (0) Table store_comments: Total expected rows (via COUNT): 1
+0026.337 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0026.355 (0) Table store_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1953) in 0.03 seconds
+0026.379 (0) Table store_comments: finishing file(s) (2, 0.8 KB)
+0026.409 (0) Table store_links: Total expected rows (via COUNT): 0
+0026.426 (0) Table store_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1045) in 0.03 seconds
+0026.453 (0) Table store_links: finishing file(s) (2, 0.5 KB)
+0026.505 (0) Table store_postmeta: Total expected rows (approximate): 3007
+0026.632 (0) Table store_postmeta: Rows added in this batch (next record: 3174): 2996 (uncompressed bytes in this segment=237004) in 0.16 seconds
+0026.663 (0) Table store_postmeta: finishing file(s) (2, 28.8 KB)
+0026.693 (0) Table store_posts: Total expected rows (via COUNT): 190
+0026.701 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0026.735 (0) Table store_posts: Rows added in this batch (next record: 203): 190 (uncompressed bytes in this segment=86158) in 0.06 seconds
+0026.765 (0) Table store_posts: finishing file(s) (2, 12.6 KB)
+0026.782 (0) Table store_term_relationships: Total expected rows (approximate): 266
+0026.800 (0) Table store_term_relationships: Rows added in this batch (next record: 100000): 265 (uncompressed bytes in this segment=4493) in 0.02 seconds
+0026.827 (0) Table store_term_relationships: finishing file(s) (2, 1.1 KB)
+0026.855 (0) Table store_term_taxonomy: Total expected rows (via COUNT): 46
+0026.863 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0026.880 (0) Table store_term_taxonomy: Rows added in this batch (next record: 46): 46 (uncompressed bytes in this segment=2520) in 0.04 seconds
+0026.909 (0) Table store_term_taxonomy: finishing file(s) (2, 0.8 KB)
+0026.939 (0) Table store_termmeta: Total expected rows (via COUNT): 47
+0026.946 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0026.956 (0) Table store_termmeta: Rows added in this batch (next record: 47): 47 (uncompressed bytes in this segment=2187) in 0.03 seconds
+0026.986 (0) Table store_termmeta: finishing file(s) (2, 0.7 KB)
+0027.011 (0) Table store_terms: Total expected rows (via COUNT): 46
+0027.022 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0027.030 (0) Table store_terms: Rows added in this batch (next record: 46): 46 (uncompressed bytes in this segment=2187) in 0.03 seconds
+0027.077 (0) Table store_terms: finishing file(s) (2, 0.9 KB)
+0027.098 (0) Table store_wc_category_lookup: Total expected rows (approximate): 27
+0027.116 (0) Table store_wc_category_lookup: Rows added in this batch (next record: 1000): 27 (uncompressed bytes in this segment=897) in 0.02 seconds
+0027.140 (0) Table store_wc_category_lookup: finishing file(s) (2, 0.4 KB)
+0027.161 (0) Table store_wc_product_meta_lookup: Total expected rows (via COUNT): 107
+0027.169 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0027.190 (0) Table store_wc_product_meta_lookup: Rows added in this batch (next record: 181): 107 (uncompressed bytes in this segment=11621) in 0.03 seconds
+0027.224 (0) Table store_wc_product_meta_lookup: finishing file(s) (2, 1.5 KB)
+0027.257 (0) Table store_wc_reserved_stock: Total expected rows (approximate): 0
+0027.276 (0) Table store_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=681) in 0.02 seconds
+0027.300 (0) Table store_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0027.319 (0) Table store_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0027.327 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0027.343 (0) Table store_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=771) in 0.03 seconds
+0027.365 (0) Table store_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0027.396 (0) Table store_woocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+0027.412 (0) Table store_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=740) in 0.03 seconds
+0027.442 (0) Table store_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0027.476 (0) Table store_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0027.485 (0) Table store_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=767) in 0.02 seconds
+0027.515 (0) Table store_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0027.543 (0) Table store_wc_admin_note_actions: Total expected rows (via COUNT): 102
+0027.551 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0027.571 (0) Table store_wc_admin_note_actions: Rows added in this batch (next record: 583): 102 (uncompressed bytes in this segment=19404) in 0.04 seconds
+0027.601 (0) Table store_wc_admin_note_actions: finishing file(s) (2, 3.2 KB)
+0027.629 (0) Table store_wc_admin_notes: Total expected rows (via COUNT): 70
+0027.637 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0027.657 (0) Table store_wc_admin_notes: Rows added in this batch (next record: 70): 70 (uncompressed bytes in this segment=33126) in 0.04 seconds
+0027.688 (0) Table store_wc_admin_notes: finishing file(s) (2, 6.9 KB)
+0027.709 (0) Table store_wc_customer_lookup: Total expected rows (via COUNT): 0
+0027.734 (0) Table store_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1036) in 0.03 seconds
+0027.757 (0) Table store_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+0027.778 (0) Table store_wc_download_log: Total expected rows (via COUNT): 0
+0027.787 (0) Table store_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=734) in 0.01 seconds
+0027.814 (0) Table store_wc_download_log: finishing file(s) (2, 0.4 KB)
+0027.839 (0) Table store_wc_order_addresses: Total expected rows (via COUNT): 0
+0027.849 (0) Table store_wc_order_addresses: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1076) in 0.01 seconds
+0027.872 (0) Table store_wc_order_addresses: finishing file(s) (2, 0.5 KB)
+0027.891 (0) Table store_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0027.901 (0) Table store_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=733) in 0.01 seconds
+0027.929 (0) Table store_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0027.951 (0) Table store_wc_order_operational_data: Total expected rows (via COUNT): 0
+0027.961 (0) Table store_wc_order_operational_data: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1417) in 0.01 seconds
+0027.985 (0) Table store_wc_order_operational_data: finishing file(s) (2, 0.6 KB)
+0028.006 (0) Table store_wc_order_product_lookup: Total expected rows (via COUNT): 0
+0028.015 (0) Table store_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1233) in 0.01 seconds
+0028.039 (0) Table store_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0028.060 (0) Table store_wc_order_stats: Total expected rows (via COUNT): 0
+0028.071 (0) Table store_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1210) in 0.02 seconds
+0028.095 (0) Table store_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0028.113 (0) Table store_wc_order_tax_lookup: Total expected rows (approximate): 0
+0028.123 (0) Table store_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=811) in 0.01 seconds
+0028.147 (0) Table store_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0028.168 (0) Table store_wc_orders: Total expected rows (via COUNT): 0
+0028.177 (0) Table store_wc_orders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1435) in 0.01 seconds
+0028.204 (0) Table store_wc_orders: finishing file(s) (2, 0.6 KB)
+0028.224 (0) Table store_wc_orders_meta: Total expected rows (via COUNT): 0
+0028.241 (0) Table store_wc_orders_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=720) in 0.02 seconds
+0028.281 (0) Table store_wc_orders_meta: finishing file(s) (2, 0.4 KB)
+0028.333 (0) Table store_wc_product_attributes_lookup: Total expected rows (approximate): 115
+0028.352 (0) Table store_wc_product_attributes_lookup: Rows added in this batch (next record: 1000): 115 (uncompressed bytes in this segment=4780) in 0.02 seconds
+0028.376 (0) Table store_wc_product_attributes_lookup: finishing file(s) (2, 1 KB)
+0028.396 (0) Table store_wc_product_download_directories: Total expected rows (via COUNT): 3
+0028.404 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0028.421 (0) Table store_wc_product_download_directories: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1008) in 0.03 seconds
+0028.444 (0) Table store_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0028.467 (0) Table store_wc_rate_limits: Total expected rows (via COUNT): 0
+0028.483 (0) Table store_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.02 seconds
+0028.507 (0) Table store_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0028.527 (0) Table store_wc_webhooks: Total expected rows (via COUNT): 0
+0028.537 (0) Table store_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1089) in 0.01 seconds
+0028.560 (0) Table store_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0028.590 (0) Table store_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0028.598 (0) Table store_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=891) in 0.02 seconds
+0028.629 (0) Table store_woocommerce_api_keys: finishing file(s) (2, 0.4 KB)
+0028.649 (0) Table store_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 3
+0028.657 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0028.674 (0) Table store_woocommerce_attribute_taxonomies: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1081) in 0.03 seconds
+0028.701 (0) Table store_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.5 KB)
+0028.722 (0) Table store_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0028.739 (0) Table store_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1428) in 0.02 seconds
+0028.763 (0) Table store_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0028.800 (0) Table store_woocommerce_log: Total expected rows (via COUNT): 0
+0028.808 (0) Table store_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=660) in 0.02 seconds
+0028.848 (0) Table store_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0028.868 (0) Table store_woocommerce_order_items: Total expected rows (via COUNT): 0
+0028.878 (0) Table store_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=695) in 0.01 seconds
+0028.902 (0) Table store_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0028.924 (0) Table store_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0028.941 (0) Table store_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=762) in 0.02 seconds
+0028.964 (0) Table store_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0028.991 (0) Table store_woocommerce_sessions: Total expected rows (via COUNT): 2
+0028.999 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0029.015 (0) Table store_woocommerce_sessions: Rows added in this batch (next record: 14): 2 (uncompressed bytes in this segment=4231) in 0.03 seconds
+0029.045 (0) Table store_woocommerce_sessions: finishing file(s) (2, 1.2 KB)
+0029.068 (0) Table store_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 0
+0029.089 (0) Table store_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=830) in 0.02 seconds
+0029.112 (0) Table store_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0029.131 (0) Table store_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 0
+0029.140 (0) Table store_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=760) in 0.01 seconds
+0029.176 (0) Table store_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0029.196 (0) Table store_woocommerce_shipping_zones: Total expected rows (via COUNT): 0
+0029.205 (0) Table store_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=620) in 0.01 seconds
+0029.228 (0) Table store_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0029.249 (0) Table store_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 4
+0029.257 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0029.274 (0) Table store_woocommerce_tax_rate_locations: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1003) in 0.03 seconds
+0029.298 (0) Table store_woocommerce_tax_rate_locations: finishing file(s) (2, 0.5 KB)
+0029.331 (0) Table store_woocommerce_tax_rates: Total expected rows (via COUNT): 10
+0029.370 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0029.405 (0) Table store_woocommerce_tax_rates: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=1771) in 0.08 seconds
+0029.440 (0) Table store_woocommerce_tax_rates: finishing file(s) (2, 0.6 KB)
+0029.447 (0) PHP event: code E_WARNING: filemtime(): stat failed for /opt/lampp/htdocs/sites/demostore/wp-content/updraft/backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db.gz (line 1925, wp-content/plugins/updraftplus/backup.php)
+0029.457 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_options.table.tmpr1024.gz (1/50/fopen): adding to final database dump
+0029.485 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_options.table.gz (2/50/fopen): adding to final database dump
+0029.493 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_users.table.tmpr2.gz (3/50/fopen): adding to final database dump
+0029.500 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_users.table.gz (4/50/fopen): adding to final database dump
+0029.508 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_usermeta.table.tmpr44.gz (5/50/fopen): adding to final database dump
+0029.516 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_usermeta.table.gz (6/50/fopen): adding to final database dump
+0029.524 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_actionscheduler_actions.table.tmpr228.gz (7/50/fopen): adding to final database dump
+0029.532 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_actionscheduler_actions.table.gz (8/50/fopen): adding to final database dump
+0029.539 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_actionscheduler_claims.table.tmpr0.gz (9/50/fopen): adding to final database dump
+0029.547 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_actionscheduler_claims.table.gz (10/50/fopen): adding to final database dump
+0029.554 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_actionscheduler_groups.table.tmpr5.gz (11/50/fopen): adding to final database dump
+0029.562 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_actionscheduler_groups.table.gz (12/50/fopen): adding to final database dump
+0029.570 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_actionscheduler_logs.table.tmpr665.gz (13/50/fopen): adding to final database dump
+0029.578 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_actionscheduler_logs.table.gz (14/50/fopen): adding to final database dump
+0029.586 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_commentmeta.table.tmpr0.gz (15/50/fopen): adding to final database dump
+0029.595 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_commentmeta.table.gz (16/50/fopen): adding to final database dump
+0029.603 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_comments.table.tmpr2.gz (17/50/fopen): adding to final database dump
+0029.611 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_comments.table.gz (18/50/fopen): adding to final database dump
+0029.619 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_links.table.tmpr0.gz (19/50/fopen): adding to final database dump
+0029.627 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_links.table.gz (20/50/fopen): adding to final database dump
+0029.634 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_postmeta.table.tmpr3175.gz (21/50/fopen): adding to final database dump
+0029.643 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_postmeta.table.gz (22/50/fopen): adding to final database dump
+0029.651 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_posts.table.tmpr204.gz (23/50/fopen): adding to final database dump
+0029.659 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_posts.table.gz (24/50/fopen): adding to final database dump
+0029.674 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_term_relationships.table.tmpr100001.gz (25/50/fopen): adding to final database dump
+0029.681 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_term_relationships.table.gz (26/50/fopen): adding to final database dump
+0029.689 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_term_taxonomy.table.tmpr47.gz (27/50/fopen): adding to final database dump
+0029.696 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_term_taxonomy.table.gz (28/50/fopen): adding to final database dump
+0029.704 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_termmeta.table.tmpr48.gz (29/50/fopen): adding to final database dump
+0029.712 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_termmeta.table.gz (30/50/fopen): adding to final database dump
+0029.720 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_terms.table.tmpr47.gz (31/50/fopen): adding to final database dump
+0029.727 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_terms.table.gz (32/50/fopen): adding to final database dump
+0029.735 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_category_lookup.table.tmpr1001.gz (33/50/fopen): adding to final database dump
+0029.743 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_category_lookup.table.gz (34/50/fopen): adding to final database dump
+0029.750 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_product_meta_lookup.table.tmpr182.gz (35/50/fopen): adding to final database dump
+0029.758 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_product_meta_lookup.table.gz (36/50/fopen): adding to final database dump
+0029.766 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_reserved_stock.table.tmpr1.gz (37/50/fopen): adding to final database dump
+0029.774 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_reserved_stock.table.gz (38/50/fopen): adding to final database dump
+0029.781 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_tax_rate_classes.table.tmpr3.gz (39/50/fopen): adding to final database dump
+0029.789 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_tax_rate_classes.table.gz (40/50/fopen): adding to final database dump
+0029.797 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_woocommerce_order_itemmeta.table.tmpr0.gz (41/50/fopen): adding to final database dump
+0029.805 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_woocommerce_order_itemmeta.table.gz (42/50/fopen): adding to final database dump
+0029.812 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_woocommerce_payment_tokenmeta.table.tmpr0.gz (43/50/fopen): adding to final database dump
+0029.820 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_woocommerce_payment_tokenmeta.table.gz (44/50/fopen): adding to final database dump
+0029.828 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_admin_note_actions.table.tmpr584.gz (45/50/fopen): adding to final database dump
+0029.836 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_admin_note_actions.table.gz (46/50/fopen): adding to final database dump
+0029.843 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_admin_notes.table.tmpr71.gz (47/50/fopen): adding to final database dump
+0029.854 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_admin_notes.table.gz (48/50/fopen): adding to final database dump
+0029.862 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_customer_lookup.table.tmpr0.gz (49/50/fopen): adding to final database dump
+0029.869 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_customer_lookup.table.gz (50/50/fopen): adding to final database dump
+0029.877 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_download_log.table.tmpr0.gz (51/50/fopen): adding to final database dump
+0029.885 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_download_log.table.gz (52/50/fopen): adding to final database dump
+0029.892 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_order_addresses.table.tmpr0.gz (53/50/fopen): adding to final database dump
+0029.900 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_order_addresses.table.gz (54/50/fopen): adding to final database dump
+0029.908 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_order_coupon_lookup.table.tmpr1.gz (55/50/fopen): adding to final database dump
+0029.915 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_order_coupon_lookup.table.gz (56/50/fopen): adding to final database dump
+0029.923 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_order_operational_data.table.tmpr0.gz (57/50/fopen): adding to final database dump
+0029.931 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_order_operational_data.table.gz (58/50/fopen): adding to final database dump
+0029.938 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_order_product_lookup.table.tmpr0.gz (59/50/fopen): adding to final database dump
+0029.946 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_order_product_lookup.table.gz (60/50/fopen): adding to final database dump
+0029.953 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_order_stats.table.tmpr0.gz (61/50/fopen): adding to final database dump
+0029.961 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_order_stats.table.gz (62/50/fopen): adding to final database dump
+0029.969 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_order_tax_lookup.table.tmpr1.gz (63/50/fopen): adding to final database dump
+0029.976 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_order_tax_lookup.table.gz (64/50/fopen): adding to final database dump
+0029.984 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_orders.table.tmpr0.gz (65/50/fopen): adding to final database dump
+0029.992 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_orders.table.gz (66/50/fopen): adding to final database dump
+0029.999 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_orders_meta.table.tmpr0.gz (67/50/fopen): adding to final database dump
+0030.007 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_orders_meta.table.gz (68/50/fopen): adding to final database dump
+0030.015 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_product_attributes_lookup.table.tmpr1001.gz (69/50/fopen): adding to final database dump
+0030.022 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_product_attributes_lookup.table.gz (70/50/fopen): adding to final database dump
+0030.041 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_product_download_directories.table.tmpr4.gz (71/50/fopen): adding to final database dump
+0030.048 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_product_download_directories.table.gz (72/50/fopen): adding to final database dump
+0030.056 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_rate_limits.table.tmpr0.gz (73/50/fopen): adding to final database dump
+0030.063 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_rate_limits.table.gz (74/50/fopen): adding to final database dump
+0030.071 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_webhooks.table.tmpr0.gz (75/50/fopen): adding to final database dump
+0030.078 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_wc_webhooks.table.gz (76/50/fopen): adding to final database dump
+0030.085 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_woocommerce_api_keys.table.tmpr0.gz (77/50/fopen): adding to final database dump
+0030.093 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_woocommerce_api_keys.table.gz (78/50/fopen): adding to final database dump
+0030.100 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_woocommerce_attribute_taxonomies.table.tmpr4.gz (79/50/fopen): adding to final database dump
+0030.112 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_woocommerce_attribute_taxonomies.table.gz (80/50/fopen): adding to final database dump
+0030.120 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_woocommerce_downloadable_product_permissions.table.tmpr0.gz (81/50/fopen): adding to final database dump
+0030.127 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_woocommerce_downloadable_product_permissions.table.gz (82/50/fopen): adding to final database dump
+0030.135 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_woocommerce_log.table.tmpr0.gz (83/50/fopen): adding to final database dump
+0030.143 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_woocommerce_log.table.gz (84/50/fopen): adding to final database dump
+0030.151 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_woocommerce_order_items.table.tmpr0.gz (85/50/fopen): adding to final database dump
+0030.159 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_woocommerce_order_items.table.gz (86/50/fopen): adding to final database dump
+0030.166 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_woocommerce_payment_tokens.table.tmpr0.gz (87/50/fopen): adding to final database dump
+0030.173 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_woocommerce_payment_tokens.table.gz (88/50/fopen): adding to final database dump
+0030.181 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_woocommerce_sessions.table.tmpr15.gz (89/50/fopen): adding to final database dump
+0030.189 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_woocommerce_sessions.table.gz (90/50/fopen): adding to final database dump
+0030.197 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_woocommerce_shipping_zone_locations.table.tmpr0.gz (91/50/fopen): adding to final database dump
+0030.205 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_woocommerce_shipping_zone_locations.table.gz (92/50/fopen): adding to final database dump
+0030.212 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_woocommerce_shipping_zone_methods.table.tmpr0.gz (93/50/fopen): adding to final database dump
+0030.220 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_woocommerce_shipping_zone_methods.table.gz (94/50/fopen): adding to final database dump
+0030.231 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_woocommerce_shipping_zones.table.tmpr0.gz (95/50/fopen): adding to final database dump
+0030.239 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_woocommerce_shipping_zones.table.gz (96/50/fopen): adding to final database dump
+0030.246 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_woocommerce_tax_rate_locations.table.tmpr5.gz (97/50/fopen): adding to final database dump
+0030.254 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_woocommerce_tax_rate_locations.table.gz (98/50/fopen): adding to final database dump
+0030.262 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_woocommerce_tax_rates.table.tmpr11.gz (99/50/fopen): adding to final database dump
+0030.277 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db-table-store_woocommerce_tax_rates.table.gz (100/50/fopen): adding to final database dump
+0030.290 (0) An error occurred while attempting to retrieve routine status (Column count of mysql.proc is wrong. Expected 21, found 20. Created with MariaDB 100108, now running 100432. Please use mysql_upgrade to fix this error - SHOW FUNCTION STATUS WHERE DB = 'demostore')
+0030.298 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db.gz: finished writing out complete database file (427.1 KB)
+0030.359 (0) Total database tables backed up: 50 (backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db.gz, size: 437465, sha1: 7c136e18427d8e2277e50b57a48b2f8f2a5b2e43, sha256: de55644cf953fd4ee244d33b75b56b1c96ce5e6be2d8f71f9d8389fbdb0c2886)
+0030.420 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-plugins.zip: plugins: This file has already been successfully uploaded
+0030.439 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-themes.zip: themes: This file has already been successfully uploaded
+0030.451 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-uploads.zip: uploads: This file has already been successfully uploaded
+0030.458 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-others.zip: others: This file has already been successfully uploaded
+0030.466 (0) backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db.gz: db: This file has not yet been successfully uploaded: will queue
+0030.481 (0) Saving backup history. Total backup size: 71.2 MB
+0030.502 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0030.524 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0030.531 (0) No remote despatch: user chose no remote backup service
+0030.538 (0) Recording as successfully uploaded: backup_2024-02-26-1725_Demo_Store_3b2facaf60de-db.gz
+0030.561 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0030.570 (0) Number of backup sets in history: 1; groups (db): 1
+0030.577 (0) Examining (for databases) backup set with group_id=0, nonce=3b2facaf60de, datestamp=1708968307 (Feb 26 2024 17:25:07)
+0030.585 (0) This backup set is the backup set just made, so will not be deleted.
+0030.585 (0) Number of backup sets in history: 1; groups (files): 1
+0030.592 (0) Examining (for files) backup set with nonce=3b2facaf60de, datestamp=1708968307 (Feb 26 2024 17:25:07)
+0030.592 (0) This backup set is the backup set just made, so will not be deleted.
+0030.602 (0) This backup set is the backup set just made, so will not be deleted.
+0030.602 (0) This backup set is the backup set just made, so will not be deleted.
+0030.603 (0) This backup set is the backup set just made, so will not be deleted.
+0030.603 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0030.610 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0030.628 (0) Resume backup (3b2facaf60de, 0): finish run
+0030.670 (0) Decremented the semaphore (fd) by 1
+0030.685 (0) Semaphore (fd) unlocked
+0030.693 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0030.718 (0) No email will/can be sent - the user has not configured an email address.
+0030.726 (0) The backup succeeded and is now complete
