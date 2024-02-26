@@ -1,6 +1,4 @@
 === Demo Store ===
-
-
 Site Name: Demo Store
 Tagline: Discover Your Style
 Admin: adminfarazhashmi
