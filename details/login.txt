@@ -1,8 +1,4 @@
 === Demo Store ===
-<<<<<<< HEAD
-
-=======
->>>>>>> my-temporary-work
 Site Name: Demo Store
 Tagline: Discover Your Style
 Admin: adminfarazhashmi
