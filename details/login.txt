@@ -2,8 +2,8 @@
 Site Name: Demo Store
 Tagline: Discover Your Style
 Admin: adminfarazhashmi
-Password: RAB*p49)WpsfziAu4g
-Email: farazhashmi9000@hotmail.com
+Password: EZuJ)nulk@4Kr6($b4
+Email: farazhashmi9000@yahoo.com
 Site URL: http://demostore/
-Login URL: http://demostore/wp-login.php/
+Login URL: http://demostore:8800/wp-login.php
 Project Description: Build an online store for Personal Shopping.
